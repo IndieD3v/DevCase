@@ -1,0 +1,72 @@
+{% extends 'base/layout.html' %}
+{% load static %}
+
+{% block body %}
+
+{% block styles %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="{% static 'base/home.css' %}">
+{% endblock %}
+
+{% include 'base/navbar.html'%}
+
+
+    <div class="container">
+        {% for project in projects %}
+        
+            <div class="items">
+
+                <img class='image' src="{{ project.image.url}}">
+                
+                <!-- <h2 class='author' >{{project.author}}</h2> -->
+                <h2>{{project}}</h2>
+                <p>{{project.date|date:'F d, Y'}}</p>
+                
+
+                <div class="purl">
+                    <p>{{project.description}}</p>
+                </div>
+                
+                <!-- <div class="purl1">
+                    <a href='{{project.url}}'>{{project.url}}</a>
+                </div> -->
+                
+                {% if request.user == project.author %}
+                    <div class='buttons'>
+                        <a class='btn' href='{% url "update" project.id %}'>Edit</a>
+                        <a class='btn1' href='{% url "delete" project.id %}'>Delete</a>
+                    </div>
+                    {% else %}
+                    <div class='buttons'>
+                        <a class='view-btn' href='{{project.url}}'>View</a>
+                    </div>
+                    
+                {% endif %}
+
+                <form action='{% url "like_project" %}' method='POST'>
+                    {% csrf_token %}
+                    
+                    <div class="like">
+
+                        {% if request.user not in project.like.all %}
+                            <button type='submit' name='project_id' value='{{ project.id }}'>
+                                <i class="fa fa-heart " aria-hidden="true"></i>
+                            </button>
+                        {% else %} 
+                            <button type='submit' name='project_id' value='{{ project.id }}'>
+                                <i style='color:#f25042;' class="fa fa-heart " aria-hidden="true"></i>
+                            </button>
+                        {% endif %}
+
+                        
+
+                            <p>{{ project.like.all.count }} Likes </p>
+                    </div>
+
+                </form>
+            </div>
+
+        {% endfor  %}
+    </div>
+    
+{% endblock %}

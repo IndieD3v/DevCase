@@ -1,0 +1,29 @@
+{% extends 'base/layout.html' %}
+{% load static %}
+{% block body %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'base/add.css' %}">
+{% endblock %}
+
+<h1>UPDATE PROJECT</h1>
+
+<div class='container'>
+
+    <form method='POST'>
+        {% csrf_token %}
+
+        <p>{{form.project_name}}</p>
+        
+        <p>{{form.image}}</p>
+
+        <p>{{form.url}}</p>
+
+        <p>{{form.description}}</p>
+
+        <button type='submit'>UPDATE</button>
+
+    </form>
+</div>
+
+{% endblock %}
