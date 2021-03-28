@@ -1,0 +1,33 @@
+{% extends 'base/layout.html' %}
+{% load static %}
+{% block body %}
+
+{% block styles %}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'base/login.css' %}">
+{% endblock %}
+
+
+<h1>Login</h1>
+
+<div class='container'>
+
+    <!-- {% if message %}
+        <div class="alert alert-danger" role="alert">
+            {{message}}
+        </div>
+    {% endif %} -->
+
+    <form method='POST'>
+        {% csrf_token %}
+
+            <input type='text' name='username' placeholder="Username">
+            <input type='password' name='password' placeholder="Password">
+            
+            <button type='submit'>LOGIN</button>
+
+    </form>
+
+</div>
+
+{% endblock %}
