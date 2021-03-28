@@ -6,4 +6,5 @@ There are many developers who create great projects but there projects don't get
 
 ## Contribution
 Dev case is a open source platform so anyone can contribute
+and it is made using [URL/Django](https://www.djangoproject.com/) 
 
