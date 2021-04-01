@@ -21,7 +21,7 @@ There are many developers who create great projects but there projects don't get
 
 ## Donate
 #### we will be very happy if you support us so that we can improve this project faster and help us to get a domain name 
-<a href="https://www.patreon.com/bePatron?u=46563102">__Become a Patreon__</a>
+[__Become a Patreon_](https://www.patreon.com/bePatron?u=46563102)
 
 
 <img src='https://www.testuff.com/wp-content/uploads/open-source.png' height='100' width='100'>
