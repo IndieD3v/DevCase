@@ -20,8 +20,7 @@ There are many developers who create great projects but there projects don't get
 - Open [Localhost](http://127.0.0.1:8000/home) in your browser.
 
 ## Donate
-#### we will be very happy if you support us so that we can improve this project faster and help us to get a domain name 
-[__Become a Patreon_](https://www.patreon.com/bePatron?u=46563102)
+### we will be very happy if you support us so that we can improve this project faster and help us to get a domain name [**Become a Patreon**](https://www.patreon.com/bePatron?u=46563102)
 
 
 <img src='https://www.testuff.com/wp-content/uploads/open-source.png' height='100' width='100'>
