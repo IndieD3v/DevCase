@@ -24,7 +24,7 @@ There are many developers who create great projects but there projects don't get
 <a href="https://www.patreon.com/bePatron?u=46563102">__Become a Patreon__</a>
 
 
-<img src='https://www.testuff.com/wp-content/uploads/open-source.png' height='80' width='80'>
+<img src='https://www.testuff.com/wp-content/uploads/open-source.png' height='100' width='100'>
 
 
 
