@@ -26,7 +26,7 @@ and the **Todo List** for the project is in the **Projects** section.
 
 ## Donate
 ### we will be very happy if you support us so that we can improve this project faster and help us to get a domain name [**Become a Patreon**](https://www.patreon.com/bePatron?u=46563102)
-[](https://img.shields.io/badge/dynamic/json?url=<URL>&label=<LABEL>&query=<$.DATA.SUBDATA>&color=<COLOR>&prefix=<PREFIX>&suffix=<SUFFIX>)
+<img alt="Hex.pm" src="https://img.shields.io/hexpm/l/plug">
 
 
 <img src='https://www.testuff.com/wp-content/uploads/open-source.png' height='100' width='100'>
