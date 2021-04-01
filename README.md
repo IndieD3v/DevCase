@@ -19,6 +19,11 @@ There are many developers who create great projects but there projects don't get
 - Run Server              `python manage.py runserver`
 - Open [Localhost](http://127.0.0.1:8000/home) in your browser.
 
+## Donate
+we will be very happy if you support us so that we can improve this project faster and help us to get a domain name 
+<a href="https://www.patreon.com/bePatron?u=46563102" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+
+
 ## License
 ![]( https://www.testuff.com/wp-content/uploads/open-source.png)
 
