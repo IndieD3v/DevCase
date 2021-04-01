@@ -6,9 +6,9 @@ There are many developers who create great projects but there projects don't get
 
 ## ⚙️ Installation
 - ` git clone https://github.com/IndieD3v/DevCase.git`
-- __cd DevCase__
-- `python manage.py runserver`
-- Open `http://127.0.0.1:8000/home` in your browser.
+- In Terminal `cd DevCase`
+- Run Server`python manage.py runserver`
+- Open [Localhost](http://127.0.0.1:8000/home) in your browser.
 
 
 
