@@ -19,7 +19,7 @@ There are many developers who create great projects but there projects don't get
 - Run Server              `python manage.py runserver`
 - Open [Localhost](http://127.0.0.1:8000/home) in your browser.
 
-
+![]( https://opensource.org/files/OSI_Approved_License.png)
 
 
 
