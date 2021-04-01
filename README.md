@@ -4,7 +4,11 @@
 ## Why I created Dev Case
 There are many developers who create great projects but there projects don't get much appreciation cause many people don't see there projects so to get that exposure i created __Dev Case__
 
-## Todo
-You can see the todo list in the __Projects__ section.
+## ⚙️ Installation
+- ` git clone https://github.com/IndieD3v/DevCase.git`
+- __cd DevCase__
+- `python manage.py runserver`
+- Open `http://127.0.0.1:8000/home` in your browser.
+
 
 
