@@ -6,5 +6,9 @@ There are many developers who create great projects but there projects don't get
 
 ## Contribution
 Dev case is a open source platform so anyone can contribute
-and it is made using [Django](https://www.djangoproject.com/) 
+and it is made using [Django](https://www.djangoproject.com/)
+
+### Steps
+clone the repository
+`git clone https://github.com/IndieD3v/DevCase.git`
 
