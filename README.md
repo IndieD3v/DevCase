@@ -19,6 +19,11 @@ There are many developers who create great projects but there projects don't get
 - Run Server              `python manage.py runserver`
 - Open [Localhost](http://127.0.0.1:8000/home) in your browser.
 
+## Issues and Ideas
+If you have any **issue** or **idea** on how to improve project.
+you can tell them in the **Issue** section.
+and the **Todo List** for the project is in the **Projects** section.
+
 ## Donate
 ### we will be very happy if you support us so that we can improve this project faster and help us to get a domain name [**Become a Patreon**](https://www.patreon.com/bePatron?u=46563102)
 
