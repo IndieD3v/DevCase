@@ -21,7 +21,7 @@ There are many developers who create great projects but there projects don't get
 
 ## Donate
 we will be very happy if you support us so that we can improve this project faster and help us to get a domain name 
-<a href="https://www.patreon.com/bePatron?u=46563102" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+<a href="https://www.patreon.com/bePatron?u=46563102">![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy7ae413aN9pt2L_Wewch5sdaCfE206Nr6t5P4jtgtA3LlnzoE4KsQC5WTh3BX5GmlMw&usqp=CAU)</a>
 
 
 ## License
