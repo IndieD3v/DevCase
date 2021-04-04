@@ -60,6 +60,7 @@ body{
     padding-left:4%;
     display:flex;
     flex-direction:row;
+
     flex-wrap: wrap;
 }
 
@@ -77,7 +78,7 @@ body{
     border-radius: 20px;
     padding:1em 1.5em   .5em 1.4em;
     box-shadow: 0px 0px 10px 0px rgb(12, 11, 11);
-    margin:5% 3em 2em .5em;
+    margin:1em 3em 2em .5em;
     width:25%;
 }
 .items:hover{
@@ -155,7 +156,88 @@ a:hover{
     cursor: pointer;
 }
 
+.next{
+    text-align: center;
+    font-size:18px;
+    font-weight:bold;
+    padding:.5em;
+    margin:2em 0 30px 15px ;
 
+    width:3.7em;
+    border-radius: 8px;
+    background-color: #2cb67d;
+    color:#fffffe;
+    font-family: 'Noto Sans', sans-serif;
+}
+.next:hover{
+    background-color: #3dd696;
+    cursor: pointer;
+}
+
+.previous{
+    text-align: center;
+    font-size:18px;
+    font-weight:bold;
+    padding:.5em;
+    margin:2em 0 30px 25px;
+
+    width:100px;
+    border-radius: 8px;
+    background-color: #2cb67d;
+    color:#fffffe;
+    font-family: 'Noto Sans', sans-serif;
+}
+.previous:hover{
+    background-color: #3dd696;
+    cursor: pointer;
+}
+.pagination{
+    display:flex;
+   justify-content: center;
+}
+
+.illust3{
+    margin-bottom:-20em;
+}
+
+
+
+.social{
+    background-color: #3e3e47;
+    color:white;
+    height:40px;
+    display:flex;
+    padding:5px;
+    text-align: center;
+    float:left;
+    margin:14px 10px 0 10px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 3px 0px #1f1f25;
+}
+.social:hover{
+    box-shadow: 0px 0px 17px 0px #0e0e11;
+
+}
+.social img{
+    padding: 5px 10px 5px 5px;
+}
+.social h3{
+    margin-top:7px;
+    font-size:18px;
+    padding-right:5px;
+}
+
+.social-buttons{
+    z-index: 2;
+    position:absolute;
+    left:510px;
+    top:3170px;
+    width:25%;
+    display:flex;
+    flex-direction:row;
+
+    flex-wrap: wrap;
+}
 
 
 @media only screen and (max-width: 800px) {

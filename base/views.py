@@ -1,6 +1,7 @@
 from django.shortcuts import render,redirect
 from django.contrib.auth import authenticate,login,logout
 from django.shortcuts import get_object_or_404
+from django.core.paginator import Paginator,EmptyPage
 from .models import Projects
 from .forms import NewProject
 
@@ -9,9 +10,14 @@ def Home(request):
     user = request.user.username
     projects = Projects.objects.all()
 
+    p = Paginator(projects,9)
+    page_num = request.GET.get('page',1)
+
+    page = p.page(page_num)
+    
     return render(request,'base/home.html',{
 
-        'projects':projects,
+        'projects':page,
         'user':user,
         
     })
