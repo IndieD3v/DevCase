@@ -11,9 +11,9 @@
   </a>
   
    <a href="www.djangoproject.com">
-    <img src="https://img.shields.io/badge/built%20with-Python-blue.svg" />
+    <img src="https://img.shields.io/badge/built%20with-Python-blue.svg?style=flat-square" />
   </a>
-
+  <img alt="AppVeyor" src="https://img.shields.io/appveyor/build/IndieD3v/DevCase?style=flat-square">
     
 
 
