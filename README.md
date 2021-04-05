@@ -40,6 +40,13 @@ If you have any **issue** or **idea** on how to improve project.
 you can tell them in the **Issue** section.
 and the **Todo List** for the project is in the **Projects** section.
 
+### Contributors
+
+This project exists thanks to all the people who contribute.
+
+<a href="https://github.com/timgrossmann/InstaPy/graphs/contributors"><img src="https://opencollective.com/instapy/contributors.svg?width=890&button=false" /></a>
+
+
 ## Donate
 ### we will be very happy if you support us so that we can improve this project faster and help us to get a domain name [**Become a Patreon**](https://www.patreon.com/bePatron?u=46563102)
 
