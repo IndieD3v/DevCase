@@ -43,7 +43,6 @@ and the **Todo List** for the project is in the **Projects** section.
 
 This project exists thanks to all the people who contribute.
 
-<a href="https://github.com/IndieD3v/DevCase/graphs/contributors"><img src="https://opencollective.com/instapy/contributors.svg?width=890&button=false" /></a>
 
 
 ## Donate
