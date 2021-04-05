@@ -2,8 +2,11 @@
 <!--   IMAGE -->
   <h1 align="center">Dev Case</h1>
   <p align="center">Dev Case is a platform where developers can showcase there projects.
-  it is implemented using [Django](www.djangoproject.com)
+  it is implemented using Django.
 <p>
+    <a href="https://github.com/SeleniumHQ/selenium">
+      <img src="https://img.shields.io/badge/built%20with-Django-yellow.svg" />
+    </a>
 
 ## Why I created Dev Case
 There are many developers who create great projects but there projects don't get much appreciation cause many people don't see there projects so to get that exposure i created __Dev Case__
