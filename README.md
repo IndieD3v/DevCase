@@ -48,7 +48,8 @@ This project exists thanks to all the people who contribute.
 
 
 ## Donate
-### we will be very happy if you support us so that we can improve this project faster and help us to get a domain name [**Become a Patreon**](https://www.patreon.com/bePatron?u=46563102)
+we will be very happy if you support us so that we can improve this project faster and 
+help us to get a domain name [**Become a Patreon**](https://www.patreon.com/bePatron?u=46563102)
 
 
 
