@@ -4,14 +4,14 @@
   <p align="center">Dev Case is a platform where developers can showcase there projects.
   it is implemented using Django.
 <p> 
-  <img alt="Hex.pm" src="https://img.shields.io/hexpm/l/plug?style=flat-badge">
+  <img alt="Hex.pm" src="https://img.shields.io/hexpm/l/plug?style=flat-square">
   
   <a href="www.djangoproject.com">
-    <img src="https://img.shields.io/badge/built%20with-Django-green.svg?style=flatbadge" />
+    <img src="https://img.shields.io/badge/built%20with-Django-green.svg?style=flat-square" />
   </a>
   
    <a href="python.org">
-    <img src="https://img.shields.io/badge/built%20with-Python-blue.svg?style=flat-badge" />
+    <img src="https://img.shields.io/badge/built%20with-Python-blue.svg?style=flat-square" />
   </a>
    <a href="python.org">
     <img src="https://img.shields.io/discord/828491322574110741?style=flat-square" />
