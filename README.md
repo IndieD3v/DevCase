@@ -40,11 +40,11 @@ If you have any **issue** or **idea** on how to improve project.
 you can tell them in the **Issue** section.
 and the **Todo List** for the project is in the **Projects** section.
 
-### Contributors
+## Contributors
 
 This project exists thanks to all the people who contribute.
 
-<a href="https://github.com/timgrossmann/InstaPy/graphs/contributors"><img src="https://opencollective.com/instapy/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/IndieD3v/DevCase/graphs/contributors"><img src="https://opencollective.com/instapy/contributors.svg?width=890&button=false" /></a>
 
 
 ## Donate
