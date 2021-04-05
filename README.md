@@ -11,7 +11,7 @@
   </a>
   
    <a href="python.org">
-    <img src="https://img.shields.io/badge/built%20with-Python-blue.svg?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/built%20with-Python-blue.svg?style=flat-badge" />
   </a>
     
 
