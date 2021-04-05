@@ -4,8 +4,8 @@
   <p align="center">Dev Case is a platform where developers can showcase there projects.
   it is implemented using Django.
 <p>
-    <a href="https://github.com/SeleniumHQ/selenium">
-      <img src="https://img.shields.io/badge/built%20with-Django-yellow.svg" />
+    <a href="www.djangoproject.com">
+      <img src="https://img.shields.io/badge/built%20with-Django-green.svg" />
     </a>
 
 ## Why I created Dev Case
