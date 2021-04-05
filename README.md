@@ -13,9 +13,9 @@
    <a href="python.org">
     <img src="https://img.shields.io/badge/built%20with-Python-blue.svg?style=flat-square" />
   </a>
-   <a href="python.org">
-    <img src="https://img.shields.io/discord/828491322574110741?style=flat-square" />
-  </a>
+   
+  <img src="https://img.shields.io/discord/828491322574110741?style=flat-square" />
+ 
 
 
 ## Why I created Dev Case
