@@ -3,10 +3,19 @@
   <h1 align="center">Dev Case</h1>
   <p align="center">Dev Case is a platform where developers can showcase there projects.
   it is implemented using Django.
-<p>
-    <a href="www.djangoproject.com">
-      <img src="https://img.shields.io/badge/built%20with-Django-green.svg" />
-    </a>
+<p> 
+  <img alt="Hex.pm" src="https://img.shields.io/hexpm/l/plug">
+  
+  <a href="www.djangoproject.com">
+    <img src="https://img.shields.io/badge/built%20with-Django-green.svg" />
+  </a>
+  
+   <a href="www.djangoproject.com">
+    <img src="https://img.shields.io/badge/built%20with-Python-blue.svg" />
+  </a>
+
+    
+
 
 ## Why I created Dev Case
 There are many developers who create great projects but there projects don't get much appreciation cause many people don't see there projects so to get that exposure i created __Dev Case__
@@ -35,7 +44,6 @@ and the **Todo List** for the project is in the **Projects** section.
 ### we will be very happy if you support us so that we can improve this project faster and help us to get a domain name [**Become a Patreon**](https://www.patreon.com/bePatron?u=46563102)
 
 
-<img alt="Hex.pm" src="https://img.shields.io/hexpm/l/plug">
 
 
 
