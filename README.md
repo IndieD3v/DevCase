@@ -7,11 +7,11 @@
   <img alt="Hex.pm" src="https://img.shields.io/hexpm/l/plug?style=for-the-badge">
   
   <a href="www.djangoproject.com">
-    <img src="https://img.shields.io/badge/built%20with-Django-green.svg?style=flat-square" />
+    <img src="https://img.shields.io/badge/built%20with-Django-green.svg?style=for-the-badgee" />
   </a>
   
-   <a href="www.djangoproject.com">
-    <img src="https://img.shields.io/badge/built%20with-Python-blue.svg?style=flat-square" />
+   <a href="python.org">
+    <img src="https://img.shields.io/badge/built%20with-Python-blue.svg?style=for-the-badge" />
   </a>
     
 
