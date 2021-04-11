@@ -4,7 +4,7 @@
 <img align="center" src='https://d23c726y8izt6r.cloudfront.net/4r6u%2Fpreview%2F38359984%2Fmain_large.png?response-content-disposition=inline%3Bfilename%3D%22main_large.png%22%3B&response-content-type=image%2Fpng&Expires=1618129560&Signature=KdAybGoVwDGr-m5xCMi~b7Rk3gWW2M567pDNacdvGMwzuzZ13FNdnyms7wspQ-~h0BGUny19Nj4rimWFbLbGsPJwr5PhIYr9BREMfPuENcqSMIZ-4n1s4nrMIds3biGkvDT8z1Vz4MiOwIxa2pd~2rEDTghdA5UigFHM7BuIlQh1yqMzaRI0Zn2ZLKT60n4oqu1uOqV-StIAsG-ekkb5-LNDHPhmC5wBB0v2Zl~0~Y8pA8pvF1Wujayf5gy4OVqHp~Z6~nJen3mvfRQTUYoMhN5sIj6KegZFeBbZ5wWez78byc8OQuM07yWL86MHnpzq2BswUIcojVo4cfnZj8mZhA__&Key-Pair-Id=APKAJT5WQLLEOADKLHBQ' />
 
   
-  <p align="center">Dev Case is a platform where developers can showcase there projects.
+  <p align="center">**Dev Case** is a platform where developers can showcase there projects.
   it is implemented using Django.
 <p> 
   <img alt="Hex.pm" src="https://img.shields.io/hexpm/l/plug?style=flat-square">
