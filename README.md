@@ -27,15 +27,15 @@ it is implemented using Django.</p>
 </a> 
 <!-- DISCORD -->
 <a href='https://discord.gg/xNezX4b7'>
-  <img height="32" src="https://img.icons8.com/color/48/000000/discord-logo.png"/>        
+  <img height="38" src="https://img.icons8.com/color/48/000000/discord-logo.png"/>        
 </a> 
 <!-- PATREON  -->
 <a href='https://www.patreon.com/bePatron?u=46563102'>
- <img height="32" src="https://img.icons8.com/color/48/000000/patreon.png"/>    
+ <img height="38" src="https://img.icons8.com/color/48/000000/patreon.png"/>    
 </a> 
 <!-- INSTAGRAM  -->
 <a class='instagram' href='https://instagram.com/code.forever'>
- <img height="32" src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/>     
+ <img height="38" src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/>     
 </a> 
 
 </p>
