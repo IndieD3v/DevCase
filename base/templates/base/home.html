@@ -1,4 +1,4 @@
-{% extends 'base/layout.html' %}
+{% extends 'base/index.html' %}
 {% load static %}
 
 {% block body %}
@@ -17,7 +17,7 @@
         
             <div class="items">
 
-                <img class='image' src="{{ project.image.url}}">
+                <img class='image' src="{{ project.image.url }}">
                 
                 <h2>{{project}}</h2>
                 <p>{{project.date|date:'F d, Y'}}</p>
