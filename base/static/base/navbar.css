@@ -8,6 +8,13 @@ body{
     --bg-color:#16161A;
     --text-color:#94a1b2;
 }
+.small-add{
+    display:none;
+    
+}
+.long-add{
+    margin:-40px 0 0 0;
+}
 .google{
 
     background-color: #3e3e47;
@@ -72,5 +79,47 @@ h1{
 hr{
     width:50%;
     box-shadow: 0px 5px 10px 3px #0a0a0c;
+}
+.long-logo{
+    margin:10px 0 -20px 10px;
+}
+.short-logo{
+    display:none;
+    margin:5px 0 -20px 5px;
+}
 
+@media only screen and (max-width: 800px) {
+    .short-logo{
+        display:block;
+    }
+    .long-logo{
+        display:none;
+    }
+    .google{
+        margin:-15px 20px 10px 0;
+    }
+    .small-add{
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .short-logo{
+        display:block;
+    }
+    .long-logo{
+        display:none;
+    }
+    .google{
+        margin:-15px 20px 10px 0;
+    }
+    .small-add{
+        display: block;
+
+    }
+    .long-add{
+        display:none;
+    }
+    .nav{
+        width:100%;
+    }
 }

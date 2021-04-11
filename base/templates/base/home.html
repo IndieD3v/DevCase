@@ -19,18 +19,12 @@
 
                 <img class='image' src="{{ project.image.url}}">
                 
-                <!-- <h2 class='author' >{{project.author}}</h2> -->
                 <h2>{{project}}</h2>
                 <p>{{project.date|date:'F d, Y'}}</p>
                 
-
                 <div class="purl">
                     <p>{{project.description}}</p>
                 </div>
-                
-                <!-- <div class="purl1">
-                    <a href='{{project.url}}'>{{project.url}}</a>
-                </div> -->
                 
                 {% if request.user == project.author %}
                     <div class='buttons'>
@@ -58,9 +52,10 @@
                                 <i style='color:#f25042;' class="fa fa-heart " aria-hidden="true"></i>
                             </button>
                         {% endif %}
+                        
+                                <p>{{ project.like.all.count }} Likes </p>
+                                <h2 class='author' >{{project.author}}</h2>
 
-
-                            <p>{{ project.like.all.count }} Likes </p>
                     </div>
 
                 </form>
@@ -92,35 +87,43 @@
     </div>
 
     <div class="footer">
-    
+        <h3 class='contact-us'>Contact us </h3>
+        <hr>
         <div class="social-buttons">
             <!-- GMAIL -->
-            <a href='home/'>
+            <a href='mailto:tanmaymakode76@gmail.com'>
                 <div class='social'>
                     <img style='width:25px;' src='https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg'>
                     <h3>Contact</h3>
                 </div>
             </a> 
             <!-- GITHUB  -->
-            <a href='home/'>
+            <a href='https://github.com/IndieD3v'>
                 <div class='social'>
                     <img style='width:30px;' src='https://icon-library.com/images/github-icon-png/github-icon-png-29.jpg'>
                     <h3>Contribute</h3>
                 </div>
             </a> 
+            <!-- DISCORD -->
+            <a href='https://discord.gg/xNezX4b7'>
+                <div class='social'>
+                    <img src="https://img.icons8.com/color/48/000000/discord-logo.png"/>        
+                    <h3>Chat</h3>
+                </div>
+            </a> 
             <!-- PATREON  -->
-            <a href='home/'>
+            <a href='https://www.patreon.com/bePatron?u=46563102'>
                 <div class='social'>
                     <svg style='margin:9px;' width="26" height="26" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 0.854004H7.20746V40.1457H0V0.854004Z" fill="#F25042"/>
                         <path d="M26.281 0.854004C18.1374 0.854004 11.5142 7.47038 11.5142 15.602C11.5142 23.7166 18.1374 30.3108 26.281 30.3108C34.4024 30.3108 41 23.7081 41 15.602C41 7.47209 34.4007 0.854004 26.281 0.854004Z" fill="white"/>
                     </svg>           
-                    <h3>Patreon</h3>
+                    <h3 style='padding-right:30px;margin-left:5px;'>Support</h3>
                 </div>
             </a> 
             <!-- INSTAGRAM  -->
-            <a href='home/'>
-                <div class='social'>
+            <a class='instagram' href='https://instagram.com/code.forever'>
+                <div style='padding-right:20px;' class='social'>
                     <svg style='margin:6px;' width="30" height="30" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M2.87838 3.06419C-0.57929 6.65569 0.128376 10.4709 0.128376 22.0612C0.128376 31.6862 -1.55096 41.335 7.23804 43.6065C9.98254 44.3124 34.2999 44.3124 37.0407 43.6029C40.7 42.6587 43.6774 39.6905 44.0844 34.515C44.1412 33.7927 44.1412 10.3425 44.0825 9.60552C43.6499 4.09269 40.2564 0.915524 35.7849 0.272024C34.76 0.123524 34.5547 0.0795235 29.2967 0.0703569C10.6462 0.0795235 6.55788 -0.750977 2.87838 3.06419V3.06419Z" fill="url(#paint0_linear)"/>
                         <path d="M22.1247 5.82525C15.4679 5.82525 9.14653 5.23308 6.73203 11.4297C5.7347 13.9891 5.87953 17.3129 5.87953 22.0723C5.87953 26.2486 5.7457 30.1738 6.73203 32.7129C9.14103 38.9133 15.5137 38.3193 22.121 38.3193C28.4955 38.3193 35.068 38.9829 37.5119 32.7129C38.511 30.1279 38.3644 26.8536 38.3644 22.0723C38.3644 15.7253 38.7145 11.6277 35.6364 8.55142C32.5197 5.43475 28.3049 5.82525 22.1174 5.82525H22.1247ZM20.669 8.75308C34.5547 8.73108 36.322 7.18742 35.3467 28.6319C35.0002 36.2164 29.2252 35.3841 22.1265 35.3841C9.18319 35.3841 8.81103 35.0138 8.81103 22.0649C8.81103 8.96575 9.8377 8.76042 20.669 8.74942V8.75308ZM30.7964 11.4499C29.7202 11.4499 28.8475 12.3226 28.8475 13.3987C28.8475 14.4749 29.7202 15.3476 30.7964 15.3476C31.8725 15.3476 32.7452 14.4749 32.7452 13.3987C32.7452 12.3226 31.8725 11.4499 30.7964 11.4499V11.4499ZM22.1247 13.7287C17.5175 13.7287 13.783 17.4651 13.783 22.0723C13.783 26.6794 17.5175 30.4139 22.1247 30.4139C26.7319 30.4139 30.4645 26.6794 30.4645 22.0723C30.4645 17.4651 26.7319 13.7287 22.1247 13.7287V13.7287ZM22.1247 16.6566C29.2839 16.6566 29.293 27.4879 22.1247 27.4879C14.9674 27.4879 14.9564 16.6566 22.1247 16.6566Z" fill="white"/>
@@ -133,11 +136,13 @@
                         </defs>
                     </svg>
                         
-                    <h3>Instagram</h3>
+                    <h3 style='margin-left:5px;'>Follow</h3>
                 </div>
             </a> 
         </div>
-
+        
+        
+        </div>
     
         <svg class='illust3' width="1350" height="250" viewBox="0 0 1440 328" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M254.5 263.26C297.7 251.751 337.167 215.625 351.5 199L461 292.513C623.667 296.19 961.3 290.787 1010.5 239.762C1059.7 188.738 1115 218.502 1136.5 239.762C1160 260.223 1222.1 299.419 1282.5 292.513C1305.5 286.279 1318.5 265.658 1378.5 277.647C1426.5 287.238 1439.5 315.212 1440 328H-1C11.5 303.862 53.1 253.669 119.5 245.996C202.5 236.405 200.5 277.647 254.5 263.26Z" fill="#3E3E47"/>

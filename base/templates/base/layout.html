@@ -2,6 +2,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        html {
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+        ::-webkit-scrollbar {
+            width: 0;  /* Remove scrollbar space */
+            background: transparent;  /* Optional: just make scrollbar invisible */
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Show Phase</title>
@@ -10,7 +20,7 @@
     {% endblock %}
 
 </head>
-<body>
+<body >
     {% block body %}
     {% endblock %}
 </body>

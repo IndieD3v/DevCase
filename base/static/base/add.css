@@ -33,7 +33,7 @@ h1{
     width:28%;
     border-radius: 8px;
     padding:1em 0 1em 0;
-    background-color: #1f1f25;
+    background-color: #282830;
 
     box-shadow: 0px 0px 17px 0px black;
 
@@ -48,8 +48,8 @@ input{
     height: 30px;
     border-radius: 0px;
     border:none;
-    border-bottom: 5px solid #101013;
-    background-color: #1f1f25;
+    border-bottom: 5px solid #16161bd7;
+    background-color: #282830;
     color: #fffffe;
 }
 
@@ -61,8 +61,8 @@ textarea{
     font-size: 17px;
     resize: none;
     border-radius: 8px;
-    border: 5px solid #101013;
-    background-color: #1f1f25;
+    border: 5px solid #16161bd7;
+    background-color: #282830;
     color: #fffffe;
 }
 label{
@@ -84,4 +84,15 @@ button{
 button:hover{
     background-color: #3dd696;
     cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    
+    .container{
+        width:90%;
+        margin:40% 0 0 18px;
+    }
+    input,textarea{
+        width: 85%;
+
+    }
 }

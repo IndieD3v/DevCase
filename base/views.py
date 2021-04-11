@@ -24,27 +24,28 @@ def Home(request):
 
 
 def Add(request):
-   
-    if request.method == 'POST':
-        form = NewProject(request.POST,request.FILES)
-        
-        if form.is_valid():
-            project = form.save(commit=False)
-
-            project.name = form.cleaned_data['project_name']
-            project.url = form.cleaned_data['url']
-            project.description = form.cleaned_data['description']
-            project.author = request.user
+    if request.user.is_authenticated:
+        if request.method == 'POST':
+            form = NewProject(request.POST,request.FILES)
             
+            if form.is_valid():
+                project = form.save(commit=False)
 
-            project.save()
-            
-            return redirect('home')
-        else: 
-            return render(request,'tasks/add.html',{
-                    "form":form  
-            })
+                project.name = form.cleaned_data['project_name']
+                project.url = form.cleaned_data['url']
+                project.description = form.cleaned_data['description']
+                project.author = request.user
+                
 
+                project.save()
+                
+                return redirect('home')
+            else: 
+                return render(request,'tasks/add.html',{
+                        "form":form  
+                })
+    else:
+        return redirect('home')
     return render(request,'base/add.html',{
         'form':NewProject(),
     })
@@ -56,34 +57,50 @@ def Delete(request,pk):
         
     return redirect('home')
 
-
 def Update(request,pk):
-    project = Projects.objects.get(id=pk)
 
-    form = NewProject(instance=project)
+    if request.user.is_authenticated:
+        project = Projects.objects.get(id=pk)
 
-    if request.method == 'POST':
-        form = NewProject(request.POST,request.FILES,instance=project)
+        form = NewProject(instance=project)
 
-        if form.is_valid():
-            form.save()
+        if request.method == 'POST':
+            form = NewProject(request.POST,request.FILES,instance=project)
 
+            if form.is_valid():
+                form.save()
+
+            return redirect('home')
+    else:
         return redirect('home')
-    
+
     return render(request,'base/update.html',{'form':form})
 
 
 def LikeProject(request):
-    user = request.user
-    project = get_object_or_404(Projects, id = request.POST.get('project_id'))
+    
+    if request.user.is_authenticated:
+        user = request.user
+        project = get_object_or_404(Projects, id = request.POST.get('project_id'))
 
-    if user in project.like.all():
-        project.like.remove(user)
+        if user in project.like.all():
+            project.like.remove(user)
+        else:
+            project.like.add(user)
     else:
-        project.like.add(user)
+        return redirect('home')
 
     return redirect('home')
 
+def get_avatar(backend, strategy, details, response,user=None, *args, **kwargs):
+    url = None
+
+    if backend.name == 'google-oauth2':
+        url = response['image'].get('url')
+        ext = url.split('.')[-1]
+    if url:
+        user.avatar = url
+        user.save()
     
 def Logout(request):
     logout(request)

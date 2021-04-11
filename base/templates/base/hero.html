@@ -11,7 +11,10 @@
 
     <div class="hero">
         <h1>The best place to <br> showcase projects</h1>
-        <h4><strong style='color:white;'>Dev Case</strong> is a platform for developers to showcase <br> there projects. so that each project will get that exposure.<br>   what are you waiting for ? showcase your project on Dev Case now.</h4>
+        <h1 class='small-h1'> The best place to showcase projects</h1>
+        
+        <h4><strong style='color:white;'>Dev Case</strong> is a platform for developers to showcase <br> there projects.so that each project will get that exposure.<br>   what are you waiting for ? showcase your project on Dev Case now.</h4>
+        <h4 class='small-h4'><strong style='color:white;'>Dev Case</strong> is a platform for developers to <br>showcase there projects. so that each project will get that exposure.what are you waiting for ?<br> showcase your project on Dev Case now.</h4>
         
         {% if request.user.is_authenticated %}
             <a href='{% url "add" %}'>
@@ -21,10 +24,10 @@
             </a>
         {%else%}
 
-            <a href="{% provider_login_url 'google' %}">
+            <a href="{% provider_login_url 'google' %}?next=/home">
                 <div class='google-login'>
                     <img style='width:25px;' src='https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg'>
-                    <h3>Login Google</h3>
+                    <h3>Login</h3>
                 </div>
             </a>    
             
@@ -47,8 +50,8 @@
         
        
             
-        <svg class='illust2' width="1350" height="1118" viewBox="0 0 1440 1118" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path id='p1' d="M668.709 96.1568C440.5 96.1568 115.26 34.7671 -48.0971 8L-126.5 663.5C651 1266 713.5 600 1437.5 1008C2161.5 1416 1790.83 511.333 1515 8C1308.48 40.0041 980 96.1568 668.709 96.1568Z" fill="#141417" stroke="#5FD796" stroke-width="8"/>
+        <svg class='illust2' width="1400" height="1118" viewBox="0 0 1440 1118" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path id='p1' d="M668.709 96.1568C440.5 96.1568 115.26 34.7671 -48.0971 8L-126.5 663.5C651 1266 713.5 600 1437.5 1008C2161.5 1416 1790.83 511.333 1515 8C1308.48 40.0041 980 96.1568 668.709 96.1568Z" fill="#141417" stroke="#5FD796"/>
             <path d="M473 895C380.6 892.6 113.833 775.333 -8.00001 717C-26.8333 737.833 -59.1 793.1 -37.5 847.5C-10.5 915.5 387 972 458 990C529 1008 784.5 972 1001 936.5C1174.2 908.1 1405.5 1017.67 1499.5 1076C1497.67 1054.33 1488.6 1003.2 1467 972C1440 933 1084 850.5 1001 821C918 791.5 588.5 898 473 895Z" fill="#141417"/>
         </svg>
             
