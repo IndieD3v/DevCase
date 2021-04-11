@@ -1,7 +1,7 @@
 <p align="center">
 <!--   IMAGE -->
   
-  <img src='https://d23c726y8izt6r.cloudfront.net/1r6u%2Fpreview%2F38359981%2Fmain_large.png?response-content-disposition=inline%3Bfilename%3D%22main_large.png%22%3B&response-content-type=image%2Fpng&Expires=1618129453&Signature=FNKILLac6qAaFNg2F~y8TRSLMXP9HFM25EnNmhQaPw5ayvasdhsgl3nHNwQoronad-Xn-9PAMKHViztKIwSAKKyffSb3tU2Xud7dYt3R8yhMAd0mrF5b5tb826YmMgmPpvqLUL5x3aJUPknCnkVvcWU3-1ZoNWt4bTde2fOWTyyk6Dq6L522bk6qkHr5gIY6-JEmuwczqFRx1ZQWzFup3UCX6pwGWwhTr5P945ZFw9qyzfSOud5ot7cywK~WbXq5zVKC~9-xDwVEjlpEM-nvCZtxtG0t9wUnvUBJJkQXRBq0sVfUDxq8RvG6kTgbcerxbAvJDZgmVIc6RjHr5JcNHg__&Key-Pair-Id=APKAJT5WQLLEOADKLHBQ' />
+  <img src='https://d23c726y8izt6r.cloudfront.net/4r6u%2Fpreview%2F38359984%2Fmain_large.png?response-content-disposition=inline%3Bfilename%3D%22main_large.png%22%3B&response-content-type=image%2Fpng&Expires=1618129560&Signature=KdAybGoVwDGr-m5xCMi~b7Rk3gWW2M567pDNacdvGMwzuzZ13FNdnyms7wspQ-~h0BGUny19Nj4rimWFbLbGsPJwr5PhIYr9BREMfPuENcqSMIZ-4n1s4nrMIds3biGkvDT8z1Vz4MiOwIxa2pd~2rEDTghdA5UigFHM7BuIlQh1yqMzaRI0Zn2ZLKT60n4oqu1uOqV-StIAsG-ekkb5-LNDHPhmC5wBB0v2Zl~0~Y8pA8pvF1Wujayf5gy4OVqHp~Z6~nJen3mvfRQTUYoMhN5sIj6KegZFeBbZ5wWez78byc8OQuM07yWL86MHnpzq2BswUIcojVo4cfnZj8mZhA__&Key-Pair-Id=APKAJT5WQLLEOADKLHBQ' />
 
   <h1 align="center">Dev Case</h1>
   <p align="center">Dev Case is a platform where developers can showcase there projects.
