@@ -1,5 +1,5 @@
 <p align="center">
-<!--   LOGOG -->
+<!--   LOGO -->
 <img align="center" src='https://d23c726y8izt6r.cloudfront.net/4r6u%2Fpreview%2F38359984%2Fmain_large.png?response-content-disposition=inline%3Bfilename%3D%22main_large.png%22%3B&response-content-type=image%2Fpng&Expires=1618129560&Signature=KdAybGoVwDGr-m5xCMi~b7Rk3gWW2M567pDNacdvGMwzuzZ13FNdnyms7wspQ-~h0BGUny19Nj4rimWFbLbGsPJwr5PhIYr9BREMfPuENcqSMIZ-4n1s4nrMIds3biGkvDT8z1Vz4MiOwIxa2pd~2rEDTghdA5UigFHM7BuIlQh1yqMzaRI0Zn2ZLKT60n4oqu1uOqV-StIAsG-ekkb5-LNDHPhmC5wBB0v2Zl~0~Y8pA8pvF1Wujayf5gy4OVqHp~Z6~nJen3mvfRQTUYoMhN5sIj6KegZFeBbZ5wWez78byc8OQuM07yWL86MHnpzq2BswUIcojVo4cfnZj8mZhA__&Key-Pair-Id=APKAJT5WQLLEOADKLHBQ' />
 
 <p align="center">Dev Case is a platform where developers can showcase there projects.
@@ -17,25 +17,27 @@ it is implemented using Django.</p>
 </a>
 <img src="https://img.shields.io/discord/828491322574110741?style=flat-square" />
 
+</p>
+<p align="center">
 <!-- GMAIL  -->
 <a href='mailto:tanmaymakode76@gmail.com'>      
-  <img height="28" src='https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg'>
+  <img height="40"src="https://img.icons8.com/fluent/48/000000/gmail--v2.png"/>
 </a> 
 <!-- GITHUB  -->
 <a href='https://github.com/IndieD3v'>
-  <img height="32" src='https://icon-library.com/images/github-icon-png/github-icon-png-29.jpg'>
+  <img height="40" src="https://img.icons8.com/material-sharp/48/ffffff/github.png"/>
 </a> 
 <!-- DISCORD -->
 <a href='https://discord.gg/xNezX4b7'>
-  <img height="38" src="https://img.icons8.com/color/48/000000/discord-logo.png"/>        
+  <img height="40" src="https://img.icons8.com/color/48/000000/discord-logo.png"/>        
 </a> 
 <!-- PATREON  -->
 <a href='https://www.patreon.com/bePatron?u=46563102'>
- <img height="38" src="https://img.icons8.com/color/48/000000/patreon.png"/>    
+ <img height="40" src="https://img.icons8.com/color/48/000000/patreon.png"/>    
 </a> 
 <!-- INSTAGRAM  -->
 <a class='instagram' href='https://instagram.com/code.forever'>
- <img height="38" src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/>     
+ <img height="40" src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/>     
 </a> 
 
 </p>
@@ -43,7 +45,7 @@ it is implemented using Django.</p>
 
 
 ## Why I created Dev Case
-There are many developers who create great projects but there projects don't get much appreciation cause many people don't see there projects so to get that exposure i created __Dev Case__
+There are many developers who create great projects but there projects don't get much appreciation cause many people don't see there projects so to get that exposure I created __Dev Case__
 
 ## 📦 Requirements
 * Python 3.8 or Higher
@@ -74,7 +76,7 @@ This project exists thanks to all the people who contribute.
 
 ## Donate
 we will be very happy if you support us so that we can improve this project faster and 
-help us to get a domain name [**Become a Patreon**](https://www.patreon.com/bePatron?u=46563102)
+help us to get a domain name [**Become a Patron**](https://www.patreon.com/bePatron?u=46563102)
 
 
 
