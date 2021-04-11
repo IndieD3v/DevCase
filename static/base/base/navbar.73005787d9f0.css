@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+}
+:root {
+    --bg-color:#16161A;
+    --text-color:#94a1b2;
+}
+.small-add{
+    display:none;
+    
+}
+.long-add{
+    margin:-40px 0 0 0;
+}
+.google{
+
+    background-color: #3e3e47;
+    color:white;
+    height:30px;
+    display:flex;
+    padding:5px;
+    text-align: center;
+    float: right;
+    margin:14px 30px 0 10px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 3px 0px #1f1f25;
+    /* border:2px solid rgb(0, 0, 0); */
+}
+.google:hover{
+    box-shadow: 0px 0px 17px 0px #17171b;
+
+}
+.google img{
+
+    padding: 5px 10px 5px 5px;
+}
+.google h3{
+
+    margin-top:5px;
+    font-size:15px;
+    padding-right:5px;
+}
+.add,.logout{
+
+    margin:10px;
+}
+.add{
+
+    color: white;
+}
+.logout{
+
+    color:#f25042;
+}
+.nav{
+    z-index:2;
+    position: fixed;
+    top:0;
+    width:100%;
+    background-color: #28282e;
+    color:white;
+    height:70px;
+    box-shadow: 0px 25px 28px -15px #111;  
+    
+}
+.square{
+  text-align: center;
+}
+h1{
+    font-family:'Open Sans';
+    font-weight: bold;
+    font-size: 50px;
+    color:white;
+    padding-top:70px;
+}
+hr{
+    width:50%;
+    box-shadow: 0px 5px 10px 3px #0a0a0c;
+}
+.long-logo{
+    margin:10px 0 -20px 10px;
+}
+.short-logo{
+    display:none;
+    margin:5px 0 -20px 5px;
+}
+
+@media only screen and (max-width: 800px) {
+    .short-logo{
+        display:block;
+    }
+    .long-logo{
+        display:none;
+    }
+    .google{
+        margin:-15px 20px 10px 0;
+    }
+    .small-add{
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .short-logo{
+        display:block;
+    }
+    .long-logo{
+        display:none;
+    }
+    .google{
+        margin:-15px 20px 10px 0;
+    }
+    .small-add{
+        display: block;
+
+    }
+    .long-add{
+        display:none;
+    }
+    .nav{
+        width:100%;
+    }
+}

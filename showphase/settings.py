@@ -4,9 +4,15 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+STATIC_URL = '/static/'
+STATIC_ROOT = 'static/base'
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'base/static/base'),
+)
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '_d$x2k+uh7ww4i!o9lzsfwme_k6vf&ry(vtig5fjg&hz3(qz_x'
@@ -18,7 +24,6 @@ ALLOWED_HOSTS = ['devcase-e.herokuapp.com','127.0.0.1']
 
 
 # Application definition
-
 INSTALLED_APPS = [
     'base',
     'django.contrib.admin',
