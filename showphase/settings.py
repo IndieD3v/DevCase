@@ -1,4 +1,5 @@
-
+import cloudinary
+import cloudinary_storage
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -15,7 +16,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ''
+SECRET_KEY = '_d$x2k+uh7ww4i!o9lzsfwme_k6vf&ry(vtig5fjg&hz3(qz_x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -38,9 +39,19 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.google',
-    'avatar',
+
+    'cloudinary',
+    'cloudinary_storage',
 
 ]
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': "devcase",
+    'API_KEY': "854219743259284",
+    'API_SECRET': "bO9PqGJQnkIE029BS0LMQVxVDUI",
+}
+
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 SITE_ID = 1
 
 SOCIALACCOUNT_PROVIDERS = {
