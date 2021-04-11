@@ -4,9 +4,8 @@
 <img align="center" src='https://d23c726y8izt6r.cloudfront.net/4r6u%2Fpreview%2F38359984%2Fmain_large.png?response-content-disposition=inline%3Bfilename%3D%22main_large.png%22%3B&response-content-type=image%2Fpng&Expires=1618129560&Signature=KdAybGoVwDGr-m5xCMi~b7Rk3gWW2M567pDNacdvGMwzuzZ13FNdnyms7wspQ-~h0BGUny19Nj4rimWFbLbGsPJwr5PhIYr9BREMfPuENcqSMIZ-4n1s4nrMIds3biGkvDT8z1Vz4MiOwIxa2pd~2rEDTghdA5UigFHM7BuIlQh1yqMzaRI0Zn2ZLKT60n4oqu1uOqV-StIAsG-ekkb5-LNDHPhmC5wBB0v2Zl~0~Y8pA8pvF1Wujayf5gy4OVqHp~Z6~nJen3mvfRQTUYoMhN5sIj6KegZFeBbZ5wWez78byc8OQuM07yWL86MHnpzq2BswUIcojVo4cfnZj8mZhA__&Key-Pair-Id=APKAJT5WQLLEOADKLHBQ' />
 
   
-  <p align="center">**Dev Case** is a platform where developers can showcase there projects.
-  it is implemented using Django.
-<p> 
+  <p align="center">Dev Case is a platform where developers can showcase there projects.
+  it is implemented using Django.<p> 
   <img alt="Hex.pm" src="https://img.shields.io/hexpm/l/plug?style=flat-square">
   
   <a href="www.djangoproject.com">
@@ -19,7 +18,6 @@
    
   <img src="https://img.shields.io/discord/828491322574110741?style=flat-square" />
  
-
 
 ## Why I created Dev Case
 There are many developers who create great projects but there projects don't get much appreciation cause many people don't see there projects so to get that exposure i created __Dev Case__
@@ -40,14 +38,12 @@ There are many developers who create great projects but there projects don't get
 - Open [Localhost](http://127.0.0.1:8000/home) in your browser.
 
 ## Issues and Ideas
-If you have any **issue** or **idea** on how to improve project.
+If you have any **issue** or **idea** on how to improve DevCase.
 you can tell them in the **Issue** section.
 and the **Todo List** for the project is in the **Projects** section.
 
 ## Contributors
-
 This project exists thanks to all the people who contribute.
-
 
 
 ## Donate
