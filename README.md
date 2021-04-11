@@ -48,7 +48,7 @@ it is implemented using Django.</p>
 There are many developers who create great projects but there projects don't get much appreciation cause many people don't see there projects so to get that exposure I created __Dev Case__
 
 ## 📦 Requirements
-* Python 3.8 or Higher
+* Python 3.1.7 or Higher
 * Djnago         
 * Pillow         
 * djnago-allauth 
