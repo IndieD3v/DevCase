@@ -58,7 +58,6 @@ There are many developers who create great projects but there projects don't get
 - Fork the repository
 - Clone the forked repo
 - Go to `cd DevCase` folder 
-- activate **Virtualenv** `source venv/bin/activate`
 - Run Server              `python manage.py runserver`
 - Open [Localhost](http://127.0.0.1:8000/home) in your browser.
 
