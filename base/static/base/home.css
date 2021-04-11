@@ -231,6 +231,7 @@ a:hover{
 }
 
 .social-buttons{
+    display:none;
     z-index: 2;
     position:absolute;
     left:515px;
@@ -281,6 +282,7 @@ hr{
     }
   
     .social-buttons{
+        dislay:block;
         position:initial;
         margin: 15px 0 30px 6px;
         justify-content: center;
