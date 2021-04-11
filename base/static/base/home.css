@@ -255,7 +255,9 @@ a:hover{
 hr{
     display:none;
 }
-
+.footer{
+    display:none;
+}
 /* TABLET */
 @media only screen and (max-width: 800px) {
     .container{
@@ -281,7 +283,9 @@ hr{
     .items{
         width:80%;
     }
-  
+    .footer{
+        display:block;
+    }
     .social-buttons{
         dislay:block;
         position:initial;
