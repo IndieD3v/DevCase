@@ -31,11 +31,11 @@ it is implemented using Django.</p>
 </a> 
 <!-- PATREON  -->
 <a href='https://www.patreon.com/bePatron?u=46563102'>
-  <img src="https://img.icons8.com/color/48/000000/discord-logo.png"/>        
+ <img src="https://img.icons8.com/color/48/000000/patreon.png"/>    
 </a> 
 <!-- INSTAGRAM  -->
 <a class='instagram' href='https://instagram.com/code.forever'>
-  <img src="https://img.icons8.com/color/48/000000/discord-logo.png"/>        
+ <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/>     
 </a> 
 
 </p>
