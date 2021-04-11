@@ -19,11 +19,11 @@ it is implemented using Django.</p>
 
 <!-- GMAIL  -->
 <a href='mailto:tanmaymakode76@gmail.com'>      
-  <img wiidth="50" height="50" src='https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg'>
+  <img height="30" src='https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg'>
 </a> 
 <!-- GITHUB  -->
 <a href='https://github.com/IndieD3v'>
-  <img wiidth="50"src='https://icon-library.com/images/github-icon-png/github-icon-png-29.jpg'>
+  <img height="30" src='https://icon-library.com/images/github-icon-png/github-icon-png-29.jpg'>
 </a> 
 <!-- DISCORD -->
 <a href='https://discord.gg/xNezX4b7'>
