@@ -44,6 +44,9 @@ and the **Todo List** for the project is in the **Projects** section.
 
 ## Contributors
 This project exists thanks to all the people who contribute.
+<a href="https://github.com/IndieD3v/DevCase/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=IndieD3v/DevCase" />
+</a>
 
 
 ## Donate
