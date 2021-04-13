@@ -201,6 +201,7 @@ a:hover{
 
 .illust3{
     margin-bottom:-20em;
+    display:none;
 }
 
 
@@ -231,10 +232,11 @@ a:hover{
 }
 
 .social-buttons{
+    display:none;
     z-index: 2;
     position:absolute;
     left:515px;
-    top:2370px;
+    top:3050px;
     width:30%;
     display:flex;
     flex-direction:row;
@@ -253,7 +255,9 @@ a:hover{
 hr{
     display:none;
 }
-
+.footer{
+    display:none;
+}
 /* TABLET */
 @media only screen and (max-width: 800px) {
     .container{
@@ -279,8 +283,11 @@ hr{
     .items{
         width:80%;
     }
-  
+    .footer{
+        display:block;
+    }
     .social-buttons{
+        dislay:block;
         position:initial;
         margin: 15px 0 30px 6px;
         justify-content: center;
