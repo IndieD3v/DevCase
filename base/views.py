@@ -5,6 +5,7 @@ from django.core.paginator import Paginator,EmptyPage
 from .models import Projects
 from .forms import NewProject
 
+# Home
 def Home(request):
     user = request.user.username
     projects = Projects.objects.all()
