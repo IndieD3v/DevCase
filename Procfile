@@ -1,1 +1,1 @@
-web: gunicorn showphase.wsgi --log-file -
+web: gunicorn 'showphase.wsgi'
